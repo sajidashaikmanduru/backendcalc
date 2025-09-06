@@ -13,7 +13,7 @@ public class CalcController {
 
     @GetMapping("/add/{A}/{B}")
     public String add(@PathVariable("A") int a, @PathVariable("B") int b) {
-        return "Addition = " + (a + b);
+        return " " + (a + b);
     }
 }
 
